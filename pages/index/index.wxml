@@ -13,7 +13,7 @@
         disabled="{{disabled}}" bindtap="toCalc"> {{motto}} </button>
   </view>
   <view>
-    <navigator url="https://github.com/dunizb/wxapp-sCalc" class="github" hover-class="navigator-hover">
+    <navigator url="view" class="github" hover-class="navigator-hover">
       <icon type="{{iconType}}" class="icon" size="20"/>GitHub
     </navigator>
   </view>

@@ -1,0 +1,5 @@
+<view class="github-info">
+    <view>微信小程序不支持跳转第三方网页</view>
+    <view>手动复制GitHub地址吧：</view>
+    <view>https://github.com/dunizb/wxapp-sCalc</view>
+</view>

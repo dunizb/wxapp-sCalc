@@ -9,7 +9,7 @@
   </view>
   <view class="usermotto">
     <!--<text class="user-motto">{{motto}}</text>-->
-    <button type="primary" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+    <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
         disabled="{{disabled}}" bindtap="toCalc"> {{motto}} </button>
   </view>
   <view>

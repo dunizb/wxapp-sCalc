@@ -5,7 +5,10 @@
   <view class="btnGroup">
     <view class="item orange" bindtap="clickBtn" id="{{idc}}">С</view>
     <view class="item orange" bindtap="clickBtn" id="{{idb}}">←</view>
-    <view class="item orange" bindtap="clickBtn" id="{{idt}}">＋/－</view>
+    <!--<view class="item orange" bindtap="clickBtn" id="{{idt}}">＋/－</view>-->
+    <view class="item orange iconBtn" bindtap="history">
+        <icon type="{{iconType}}" color="{{iconColor}}" class="icon" size="25"/>
+    </view>
     <view class="item orange" bindtap="clickBtn" id="{{idadd}}">＋</view>
   </view>
   <view class="btnGroup">
@@ -27,11 +30,8 @@
     <view class="item orange" bindtap="clickBtn" id="{{iddiv}}">÷</view>
   </view>
   <view class="btnGroup">
-    <view class="item blue" bindtap="clickBtn" id="{{id0}}">0</view>
+    <view class="item blue zero" bindtap="clickBtn" id="{{id0}}">0</view>
     <view class="item blue" bindtap="clickBtn" id="{{idd}}">.</view>
-    <view class="item blue iconBtn" bindtap="history">
-      <icon type="{{iconType}}" class="icon" size="45"/>
-    </view>
     <view class="item orange" bindtap="clickBtn" id="{{ide}}">＝</view>
   </view>
 </view>

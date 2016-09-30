@@ -18,12 +18,12 @@ Page({
     iddiv:"÷",
     id0:"0",
     idd:".",
-    idh:"history",
     ide:"＝",
     screenData:"0",
     operaSymbo:{"＋":"+","－":"-","×":"*","÷":"/",".":"."},
     lastIsOperaSymbo:false,
     iconType:'waiting_circle',
+    iconColor:'white',
     arr:[],
     logs:[]
   },

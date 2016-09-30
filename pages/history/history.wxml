@@ -1,8 +1,10 @@
 <view class="content">
-    <scroll-view scroll-y="true" scroll-x="true" style="height: 500px;" >
         <block wx:for="{{logs}}" wx:for-item="log">
             <view class="item">{{log}}</view>
         </block>
+    <!--<scroll-view scroll-y="true" scroll-x="true" style="height: 500px;" >-->
+        
+        <!--<view class="item">1</view>
         <view class="item">1</view>
         <view class="item">1</view>
         <view class="item">1</view>
@@ -13,7 +15,6 @@
         <view class="item">1</view>
         <view class="item">1</view>
         <view class="item">1</view>
-        <view class="item">1</view>
-        <view class="item">1</view>
-    </scroll-view>
-<view>
+        <view class="item">1</view>-->
+    <!--</scroll-view>-->
+</view>

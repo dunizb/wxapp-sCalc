@@ -3,50 +3,51 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-sizing: border-box;
     background-color: #ccc;
-    padding-top: 30rpx;
     font-family: "Microsoft YaHei";
+    overflow-x: hidden;
 }
 .screen {
-    background-color: #ccc;
-    border-radius: 3px;
     text-align: right;
     width: 100%;
-    height: 200rpx;
-    line-height: 200rpx;
-    padding: 0 15rpx;
+    height: 250rpx;
+    line-height: 250rpx;
+    padding: 0 10rpx;
     margin-bottom: 30rpx;
     font-weight: bold;
     font-size: 60px;
+    box-sizing: border-box;
+    border-top: 1px solid #fff;
 }
 .btnGroup {
     display: flex;
     flex-direction: row;
     flex: 1;
     width: 100%;
+    background-color: #fff;
 }
 .item {
     width:25%;
-    min-height: 150rpx;
-    text-shadow: 0 1px 1px rgba(0,0,0,.3);
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin-top: 1px;
+    margin-right: 1px;
 }
 .item:active {
     background-color: #ff0000;
 }
+.zero{
+    width: 50%;
+}
 .orange {
     color: #fef4e9;
-    border: 1px solid #da7c0c;
     background: #f78d1d;
     font-weight: bold;
 }
 .blue {
     color:#d9eef7;
-    border:1px solid #0076a3;
     background-color: #0095cd;
 }
 .iconBtn{

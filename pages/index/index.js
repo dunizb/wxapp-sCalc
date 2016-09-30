@@ -3,13 +3,10 @@
 var app = getApp()
 Page({
   data: {
-    motto: '简易计算器',
+    motto: '简易计算器☞',
     userInfo: {},
     defaultSize: 'default',
-    primarySize: 'default',
-    warnSize: 'default',
     disabled: false,
-    plain: true,
     iconType:'info_circle'
   },
   //事件处理函数
@@ -20,11 +17,11 @@ Page({
   },
   toCalc:function(){
     wx.navigateTo({
-      url:'../calc/index'
+      url:'../calc/calc'
     })
   },
   onLoad: function () {
-    console.log('onLoad')
+    console.log('onLoad');
     var that = this
   	//调用应用实例的方法获取全局数据
     app.getUserInfo(function(userInfo){

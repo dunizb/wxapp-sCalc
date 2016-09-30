@@ -8,6 +8,3 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 }
-.github-info{
-  font-size: 20px;
-}

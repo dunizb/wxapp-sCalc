@@ -1,9 +1,15 @@
 Page({
   data:{
     // text:"这是一个页面"
+    logs:[1,1,1,1,12]
   },
   onLoad:function(options){
+    wx.setNavigationBarTitle({
+      title: '当前页面'
+    })
     // 页面初始化 options为页面跳转所带来的参数
+    var logs = wx.getStorageSync("calclogs");
+    console.log("==============");
   },
   onReady:function(){
     // 页面渲染完成

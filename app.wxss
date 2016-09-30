@@ -8,9 +8,3 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 }
-.bdnews-btn {
-  background-color: green;
-  color:#fff;
-  border:1px solid green;
-  padding: 5px 8px;
-}

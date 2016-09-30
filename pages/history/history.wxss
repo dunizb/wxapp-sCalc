@@ -1,0 +1,20 @@
+.content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 0 5rpx;
+}
+.item{
+    width: 95%;
+    line-height: 100rpx;
+    margin-top: 3rpx;
+    margin-bottom: 3rpx;
+    border-radius: 3px;
+    padding-left: 3rpx;
+    color: #fef4e9;
+    border: 1px solid #da7c0c;
+    background: #f78d1d;
+}

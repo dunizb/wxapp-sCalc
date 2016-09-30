@@ -6,37 +6,55 @@
     box-sizing: border-box;
     background-color: #ccc;
     padding-top: 30rpx;
+    font-family: "Microsoft YaHei";
 }
 .screen {
-    background-color: #fff;
+    background-color: #ccc;
     border-radius: 3px;
     text-align: right;
-    width:720rpx;
-    height: 100rpx;
-    line-height: 100rpx;
-    padding-left: 10rpx;
+    width: 100%;
+    height: 200rpx;
+    line-height: 200rpx;
+    padding: 0 15rpx;
     margin-bottom: 30rpx;
+    font-weight: bold;
+    font-size: 60px;
 }
 .btnGroup {
     display: flex;
     flex-direction: row;
+    flex: 1;
+    width: 100%;
 }
 .item {
-    width:160rpx;
+    width:25%;
     min-height: 150rpx;
-    margin: 10rpx;
     text-shadow: 0 1px 1px rgba(0,0,0,.3);
-    border-radius: 5px;
-    text-align: center;
-    line-height: 150rpx;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.item:active {
+    background-color: #ff0000;
 }
 .orange {
     color: #fef4e9;
     border: 1px solid #da7c0c;
     background: #f78d1d;
+    font-weight: bold;
 }
 .blue {
     color:#d9eef7;
     border:1px solid #0076a3;
     background-color: #0095cd;
+}
+.iconBtn{
+    display: flex;
+}
+.icon{
+   display: flex;
+   align-items: center;
+   width:100%;
+   justify-content: center;
 }

@@ -1,21 +1,44 @@
 /**index.wxss**/
 .userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+  /*width:256rpx;*/
+  /*height: 512rpx;*/
 }
 
 .userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
+  width: 128px;
+  height: 128px;
   margin: 20rpx;
   border-radius: 50%;
 }
 
 .userinfo-nickname {
   color: #aaa;
+  margin-top:80px;
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top: 180px;
+}
+
+/** 修改button默认的点击态样式类**/
+.button-hover {
+  background-color: red;
+}
+
+/** 修改默认的navigator点击态 **/
+.navigator-hover {
+    color:blue;
+}
+.github{
+  color: green;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+.icon{
+  vertical-align: middle;
+  margin-right: 2px;
 }

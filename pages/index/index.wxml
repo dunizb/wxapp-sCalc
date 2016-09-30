@@ -2,10 +2,19 @@
 <view class="container">
   <view  bindtap="bindViewTap" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    
+  </view>
+  <view>
+    <text class="userinfo-nickname">{{userInfo.nickName}}（Dunizb）</text>
   </view>
   <view class="usermotto">
     <!--<text class="user-motto">{{motto}}</text>-->
-    <bindViewTap class="bdnews-btn" bindtap="bingViewNews">{{motto}}</bindViewTap>
+    <button type="primary" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+        disabled="{{disabled}}" bindtap="toCalc"> {{motto}} </button>
+  </view>
+  <view>
+    <navigator url="https://github.com/dunizb/wxapp-sCalc" class="github" hover-class="navigator-hover">
+      <icon type="{{iconType}}" class="icon" size="20"/>GitHub
+    </navigator>
   </view>
 </view>

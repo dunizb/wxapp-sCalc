@@ -3,8 +3,14 @@
 var app = getApp()
 Page({
   data: {
-    motto: '笑话大全',
-    userInfo: {}
+    motto: '简易计算器',
+    userInfo: {},
+    defaultSize: 'default',
+    primarySize: 'default',
+    warnSize: 'default',
+    disabled: false,
+    plain: true,
+    iconType:'info_circle'
   },
   //事件处理函数
   bindViewTap: function() {
@@ -12,9 +18,9 @@ Page({
       url: '../logs/logs'
     })
   },
-  bingViewNews:function(){
+  toCalc:function(){
     wx.navigateTo({
-      url:'../list/list'
+      url:'../calc/index'
     })
   },
   onLoad: function () {

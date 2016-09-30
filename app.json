@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/calc/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "简易计算器",
+    "navigationBarTextStyle":"black"
+  }
+}

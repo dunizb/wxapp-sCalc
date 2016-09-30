@@ -1,0 +1,35 @@
+<view class="content">
+  <view class="screen">
+  0
+  </view>  
+  <view class="btnGroup">
+    <view class="item orange">С</view>
+    <view class="item orange">←</view>
+    <view class="item orange">＋/－</view>
+    <view class="item orange">＋</view>
+  </view>
+  <view class="btnGroup">
+    <view class="item blue">9</view>
+    <view class="item blue">8</view>
+    <view class="item blue">7</view>
+    <view class="item orange">－</view>
+  </view>
+  <view class="btnGroup">
+    <view class="item blue">6</view>
+    <view class="item blue">5</view>
+    <view class="item blue">4</view>
+    <view class="item orange">×</view>
+  </view>
+  <view class="btnGroup">
+    <view class="item blue">3</view>
+    <view class="item blue">2</view>
+    <view class="item blue">1</view>
+    <view class="item orange">÷</view>
+  </view>
+  <view class="btnGroup">
+    <view class="item blue">0</view>
+    <view class="item blue">.</view>
+    <view class="item blue">历史</view>
+    <view class="item orange">＝</view>
+  </view>
+</view>

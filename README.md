@@ -22,7 +22,7 @@
 
 1. Clone the repo
 ```
-$ git clone https://github.com/BelinChung/wxapp-hiapp.git
+$ git clone https://github.com/dunizb/wxapp-sCalc.git
 ```
 2. Import to Wechat DEV Tools
 

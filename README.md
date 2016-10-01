@@ -5,7 +5,7 @@
 为了实现计算功能，被微信小程序坑死了，应为js文件中不支持window对象，没法使用eval函数
 
 ## Previews
-![Previews](1.gif)
+![Previews](GIF.gif)
 
 ## Description
 涉及微信小程序开发相关知识：

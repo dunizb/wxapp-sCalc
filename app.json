@@ -2,6 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/calc/calc",
+    "pages/history/history",
     "pages/logs/logs"
   ],
   "window":{

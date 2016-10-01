@@ -1,4 +1,5 @@
-# wxapp-sCalc
+# wxapp-sCalc 微信小程序开发入门，适合入门练手
+
 [sCalc](https://github.com/dunizb/sCalc) 微信小程序版，适合入门，由于重点不是实现计算器具体功能，主要是为了学习微信小程序开发，
 所以一些非关注点问题就不要太在意
 
@@ -10,13 +11,12 @@
 ## Description
 涉及微信小程序开发相关知识：
 
-1. Flexbox布局
-2. 事件绑定
-3. 页面跳转
+1. CSS Flexbox布局
+2. 事件绑定、页面跳转
+3. Page、window、App全局设置
 4. wxml、wxsss、js、json文件使用方法
 5. view、text、icon、button组件使用方法
 6. navigate、wx.setStorageSync、数据绑定等API
-
 
 ## Setup
 

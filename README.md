@@ -21,9 +21,9 @@
 ## Setup
 
 1. Clone the repo
-
+```
 $ git clone https://github.com/BelinChung/wxapp-hiapp.git
-
+```
 2. Import to Wechat DEV Tools
 
 把项目导入到微信开发者工具中即可

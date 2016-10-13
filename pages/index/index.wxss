@@ -20,7 +20,7 @@
 }
 
 .usermotto {
-  margin-top: 40%;
+  margin-top: 35%;
 }
 
 /** 修改button默认的点击态样式类**/

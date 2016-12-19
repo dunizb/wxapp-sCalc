@@ -8,6 +8,7 @@
 为了实现计算功能，被微信小程序坑死了，应为js文件中不支持window对象，没法使用eval函数
 
 介绍文章：[剖析简易计算器带你入门微信小程序开发](http://www.imooc.com/article/13393)
+其他微信小程序：[极简天气](https://github.com/dunizb/wxapp-weathermin)，[读你电影](https://github.com/dunizb/wxapp-movie)
 
 ## Previews
 ![Previews](GIF.gif)
